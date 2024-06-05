@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+      .error {
+        color: red;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="header-top">
+          <p>Chào mừng các bạn đến với shop mĩ phẩm !</p>
+          <nav>
+            <ul class="nav">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-bottom">
+          <div class="logo">
+            <a href="./index.html"><img src="./assets/images/logo.png" alt="" /></a>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Tìm kiếm sản phẩm" />
+            <button type="submit">Tìm kiếm</button>
+          </div>
+          <div class="other">
+            <ul>
+              <li>
+                <a href="./register.html">
+                  <img src="./assets/images/user.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="./cart.html">
+                  <img src="./assets/images/cart.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="product">
+      <h1 class="heading">Đăng ký</h1>
+      <div class="product-container">
+        <div class="product-list" style="--col: 2">
+          <div class="form-checkout">
+            <form id="registrationForm" action="" method="post">
+              <div class="form-group" style="--col: 2">
+                <div>
+                  <p for="firstName">Tên</p>
+                  <input type="text" id="firstName" name="firstName" />
+                  <span class="error" id="firstNameError"></span>
+                </div>
+                <div>
+                  <p for="lastName">Họ</p>
+                  <input type="text" id="lastName" name="lastName" />
+                  <span class="error" id="lastNameError"></span>
+                </div>
+              </div>
+              <div class="form-group" style="--col: 1">
+                <div>
+                  <p for="email">Email</p>
+                  <input type="email" id="email" name="email" />
+                  <span class="error" id="emailError"></span>
+                </div>
+              </div>
+              <div class="form-group" style="--col: 1">
+                <div>
+                  <p for="city">Thành Phố</p>
+                  <input type="text" id="city" name="city" />
+                  <span class="error" id="cityError"></span>
+                </div>
+              </div>
+              <div class="form-group" style="--col: 1">
+                <div>
+                  <p for="ward">Xã</p>
+                  <input type="text" id="ward" name="ward" />
+                  <span class="error" id="wardError"></span>
+                </div>
+              </div>
+              <div class="form-group" style="--col: 1">
+                <div>
+                  <p for="zip">Zip Code</p>
+                  <input type="text" id="zip" name="zip" />
+                  <span class="error" id="zipError"></span>
+                </div>
+              </div>
+              <div class="form-group" style="--col: 1">
+                <div>
+                  <p for="phone">Phone</p>
+                  <input type="text" id="phone" name="phone" />
+                  <span class="error" id="phoneError"></span>
+                </div>
+              </div>
+              <div class="product-button">
+                <button type="submit">Đăng ký</button>
+              </div>
+            </form>
+          </div>
+          <div>
+            <img src="./assets/images/logo.png" style="width: 100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product">
+      <div class="form">
+        <h1 style="text-align: center">Đăng ký nhận tin</h1>
+        <p>Cập nhật các khuyến mại và tin tức mới nhất từ LeeStyle. Băng cách đăng ký, bạn đồng ý với chính sách bảo mật của chúng tôi.</p>
+        <div>
+          <input type="text" class="form-control" style="width: 50%" placeholder="Nhập Địa Chỉ Email Của Bạn" />
+          <button class="btn-outline-primary" style="margin-left: 2rem">Đăng Ký</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-column">
+        <p>
+          Thông tin liên hệ <br />
+          Công ty TNHH Bán lẻ SammiShop.<br />
+          SammiShop là chuỗi siêu thị mỹ phẩm chính hãng, giá rẻ, đáng tin cậy dành cho giới trẻ Việt Nam.<br />
+          Cấy chứng nhận đăng ký kinh doanh số 0109129611 cấp ngày 18/03/2020 tại Phòng đăng ký kinh doanh Sở kế hoạch và đầu tư thành phố Hà Nội.<br />
+          Địa chỉ: Số 159 đường Xuân Thuỷ, phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội.<br />
+          Số điện thoại: 19002631 <br />
+          Email: cskh@sammishop.com
+        </p>
+      </div>
+      <div class="footer-column">
+        <p>Về chúng tôi</p>
+        <ul>
+          <li>Câu chuyện thương hiệu</li>
+          <li>Điều khoản dịch vụ</li>
+          <li>Tuyển dụng</li>
+          <li>Hệ thống cửa hàng</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <p>Chính sách</p>
+        <ul>
+          <li>Hướng dẫn mua hàng</li>
+          <li>Quy định và hình thức thanh toán</li>
+          <li>Chính sách giao hàng</li>
+          <li>Chính sách đổi trả</li>
+          <li>Chính sách tích lũy điểm</li>
+          <li>Chính sách bảo mật thông tin</li>
+          <li>Giao hàng siêu tốc 1H</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <p style="text-align: center">Đăng ký nhận tin</p>
+        <div class="footer-form">
+          <input type="text" placeholder="Nhập email" />
+          <button>Gửi</button>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('registrationForm').addEventListener('submit', function (event) {
+        let isValid = true;
+
+        // Clear previous errors
+        const errorFields = document.querySelectorAll('.error');
+        errorFields.forEach((error) => (error.textContent = ''));
+
+        // Validate required fields
+        const requiredFields = ['firstName', 'lastName', 'email', 'city', 'ward', 'zip', 'phone'];
+        requiredFields.forEach((field) => {
+          const value = document.getElementById(field).value.trim();
+          if (value === '') {
+            document.getElementById(field + 'Error').textContent = field.charAt(0).toUpperCase() + field.slice(1) + ' không được để trống';
+            isValid = false;
+          }
+        });
+
+        // Validate email
+        const email = document.getElementById('email').value;
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+          document.getElementById('emailError').textContent = 'Email không hợp lệ';
+          isValid = false;
+        }
+
+        // Optionally validate phone number (Vietnam phone number format)
+        const phone = document.getElementById('phone').value;
+        const phonePattern = /^(0[3|5|7|8|9])+([0-9]{8})\b/;
+        if (!phonePattern.test(phone)) {
+          document.getElementById('phoneError').textContent = 'Số điện thoại không hợp lệ';
+          isValid = false;
+        }
+
+        // Optionally validate zip code (Assuming it should be 5 digits)
+        const zip = document.getElementById('zip').value;
+        const zipPattern = /^\d{5}$/;
+        if (!zipPattern.test(zip)) {
+          document.getElementById('zipError').textContent = 'Mã bưu điện không hợp lệ';
+          isValid = false;
+        }
+
+        // Prevent form submission if validation fails
+        if (!isValid) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </body>
+</html>
